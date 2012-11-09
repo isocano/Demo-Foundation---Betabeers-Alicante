@@ -19,7 +19,12 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$head['title'] = 'Betabeers Alicante';
+		
+		$this->load->view('templates/head', $head);
+		$this->load->view('templates/header');
+		$this->load->view('welcome_view');
+		$this->load->view('templates/footer');
 	}
 }
 

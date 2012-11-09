@@ -12,7 +12,7 @@
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
 
-  <title>Welcome to Foundation</title>
+  <title><?php echo $title; ?></title>
   
   <!-- Included CSS Files (Uncompressed) -->
   <!--
