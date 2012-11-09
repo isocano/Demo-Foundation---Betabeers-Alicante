@@ -2,7 +2,18 @@
 
 	<footer class="row" style="margin-bottom: 2em;">
 		<hr/>
-		<span>Saldum Labs &copy; 2012</span>
+		<div class="six columns">
+			<span>Saldum Labs &copy; 2012</span>
+		</div>
+		<div class="six columns">
+			<div class="nav_right align_right">
+				<a class="fc-webicon twitter large" href="twitter.com/isocano">Twitter</a>
+				<a class="fc-webicon tumblr large" href="isocano.com">Tumblr</a>
+				<a class="fc-webicon linkedin large" href="http://es.linkedin.com/in/ignaciosorianocano">LinkedIn</a>
+				<a class="fc-webicon github large" href="https://github.com/isocano">Github</a>
+				<a class="fc-webicon facebook large" href="https://www.facebook.com/inaki.sorianocano">Facebook</a>
+			</div>
+		</div>
 	</footer>
 
 	<!-- Included JS Files (Compressed) -->
@@ -21,7 +32,7 @@
 			    var html = [];
 			
 			    $.each(listDetails.shots, function (i, shot) {
-			        html.push('<li style="display:inline-block;"><a href="' + shot.player.url + '"/><img class="avatar" src=" ' + shot.player.avatar_url + '"/></a><h3 class="BenchNine">' + shot.title + '</h3>');
+			        html.push('<li style="display:inline-block;"><a href="' + shot.player.url + '"><img class="avatar" src=" ' + shot.player.avatar_url + '"/></a><h3 class="BenchNine">' + shot.title + '</h3>');
 			        html.push('<a href="' + shot.url + '">');
 			        html.push('<img src="' + shot.image_url + '" ');
 			        html.push('alt="' + shot.title + '"></a></li>');
