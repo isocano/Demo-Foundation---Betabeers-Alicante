@@ -27,6 +27,8 @@
   <script src="<?php echo $base_url; ?>assets/frameworks/foundation/javascripts/modernizr.foundation.js"></script>
   
   <link rel="stylesheet" href="<?php echo $base_url; ?>assets/css/style.css">
+  
+  <link href='http://fonts.googleapis.com/css?family=Arvo:400,700|BenchNine|Rokkitt' rel='stylesheet' type='text/css'>
 
   <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>

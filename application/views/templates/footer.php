@@ -1,6 +1,6 @@
 <?php $base_url = $this->config->item('base_url'); ?>
 
-	<footer class="row">
+	<footer class="row" style="margin-bottom: 2em;">
 		<hr/>
 		<span>Saldum Labs &copy; 2012</span>
 	</footer>
