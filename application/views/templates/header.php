@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="six columns">
-		<h1>Dribbble Popular</h1>
+		<h1 class="rokkitt">Dribbble Popular</h1>
 	</div>
 	<div class="six columns">
 		<div class="nav_right align_right">

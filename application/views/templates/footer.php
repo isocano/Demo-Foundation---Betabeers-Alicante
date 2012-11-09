@@ -21,8 +21,8 @@
 			    var html = [];
 			
 			    $.each(listDetails.shots, function (i, shot) {
-			        html.push('<li style="display:inline-block;"><h3>' + shot.title + '</h3>');
-			        html.push('<h4>de ' + shot.player.name + '</h4><a href="' + shot.url + '">');
+			        html.push('<li style="display:inline-block;"><h3 class="BenchNine">' + shot.title + '</h3>');
+			        html.push('<img src=" ' + shot.player.avatar_url + '"/><a href="' + shot.url + '">');
 			        html.push('<img src="' + shot.image_url + '" ');
 			        html.push('alt="' + shot.title + '"></a></li>');
 			    });
