@@ -1,5 +1,15 @@
 <?php $base_url = $this->config->item('base_url'); ?>
 
+	<!-- Included JS Files (Compressed) -->
+	<script src="<?php echo $base_url; ?>assets/frameworks/foundation/javascripts/jquery.js"></script>
+	<script src="<?php echo $base_url; ?>assets/frameworks/foundation/javascripts/foundation.min.js"></script>
+	
+	<!-- Included jribbble dile -->
+	<script src="<?php echo $base_url; ?>assets/js/jribbble/jquery.jribbble-1.0.0.ugly.js"></script>
+
+	<!-- Initialize JS Plugins -->
+	<script src="<?php echo $base_url; ?>assets/frameworks/foundation/javascripts/app.js"></script>
+	
 	<script>
 		$(document).ready(function() {
 			$.jribbble.getShotsByList('popular', function (listDetails) {
@@ -16,15 +26,5 @@
 			}, {page: 1, per_page: 20});
 		});
 	</script>
-
-	<!-- Included jribbble dile -->
-	<script src="<?php echo $base_url; ?>assets/js/jribbble/jquery.jribbble-1.0.0.ugly.js"></script>
-
-	<!-- Included JS Files (Compressed) -->
-	<script src="<?php echo $base_url; ?>assets/frameworks/foundation/javascripts/jquery.js"></script>
-	<script src="<?php echo $base_url; ?>assets/frameworks/foundation/javascripts/foundation.min.js"></script>
-
-	<!-- Initialize JS Plugins -->
-	<script src="<?php echo $base_url; ?>assets/frameworks/foundation/javascripts/app.js"></script>
 </body>
 </html>
