@@ -1,3 +1,3 @@
 <div class="row">
-	<div id="shotsByList"></div>
+	<div id="shotsByList" class="align_center"></div>
 </div>

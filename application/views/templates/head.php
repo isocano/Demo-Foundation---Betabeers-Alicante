@@ -19,14 +19,14 @@
   <link rel="stylesheet" href="stylesheets/foundation.css">
   -->
   
-  <link rel="stylesheet" href="<?php echo $base_url; ?>assets/css/style.css">
-  
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="<?php echo $base_url; ?>assets/css/webicons/fc-webicons.css">
   <link rel="stylesheet" href="<?php echo $base_url; ?>assets/frameworks/foundation/stylesheets/foundation.min.css">
   <link rel="stylesheet" href="<?php echo $base_url; ?>assets/frameworks/foundation/stylesheets/app.css">
 
   <script src="<?php echo $base_url; ?>assets/frameworks/foundation/javascripts/modernizr.foundation.js"></script>
+  
+  <link rel="stylesheet" href="<?php echo $base_url; ?>assets/css/style.css">
 
   <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>

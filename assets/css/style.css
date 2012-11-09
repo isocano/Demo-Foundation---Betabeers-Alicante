@@ -2,6 +2,14 @@ body {
 	background-image: url('http://subtlepatterns.com/patterns/furley_bg.png');
 }
 
+.nav_right {
+	margin-top: 14px;
+}
+
+.align_center {
+	text-align: center;
+}
+
 .align_right {
 	text-align: right;
 }
