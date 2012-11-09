@@ -20,6 +20,7 @@
   -->
   
   <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="<?php echo $base_url; ?>assets/css/webicons/fc-webicons.css">
   <link rel="stylesheet" href="<?php echo $base_url; ?>assets/frameworks/foundation/stylesheets/foundation.min.css">
   <link rel="stylesheet" href="<?php echo $base_url; ?>assets/frameworks/foundation/stylesheets/app.css">
 
