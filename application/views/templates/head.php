@@ -19,6 +19,8 @@
   <link rel="stylesheet" href="stylesheets/foundation.css">
   -->
   
+  <link rel="stylesheet" href="<?php echo $base_url; ?>assets/css/style.css">
+  
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="<?php echo $base_url; ?>assets/css/webicons/fc-webicons.css">
   <link rel="stylesheet" href="<?php echo $base_url; ?>assets/frameworks/foundation/stylesheets/foundation.min.css">
